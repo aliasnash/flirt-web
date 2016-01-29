@@ -1,0 +1,43 @@
+2016-01-28 16:03:44,044 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2016-01-28 16:03:44,175 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Jan 28 16:03:44 MSK 2016]; root of context hierarchy
+2016-01-28 16:03:44,237 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - No annotated classes found for specified class/package [com.fl.core.config.RootApplicationContextConfig]
+2016-01-28 16:03:44,339 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-28 16:03:44,502 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 448 ms
+2016-01-28 16:03:44,628 [main] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'flirt': initialization started
+2016-01-28 16:03:44,631 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'flirt-servlet': startup date [Thu Jan 28 16:03:44 MSK 2016]; parent: Root WebApplicationContext
+2016-01-28 16:03:44,635 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Successfully resolved class for [com.fl.web.config.MvcCoreConfig]
+2016-01-28 16:03:44,914 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-28 16:03:44,929 [main] INFO  com.fl.web.config.MvcCoreConfig - ###MvcCoreConfig loaded!###
+2016-01-28 16:03:45,250 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/500]}" onto public org.springframework.web.servlet.ModelAndView com.fl.web.controllers.ErrorController.error5x(javax.servlet.http.HttpServletRequest)
+2016-01-28 16:03:45,251 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/404 || /400]}" onto public org.springframework.web.servlet.ModelAndView com.fl.web.controllers.ErrorController.error4x(javax.servlet.http.HttpServletRequest)
+2016-01-28 16:03:45,252 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ || /home]}" onto public org.springframework.web.servlet.ModelAndView com.fl.web.controllers.MainController.home()
+2016-01-28 16:03:45,280 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 16:03:45,280 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/photo] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 16:03:45,280 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/crop] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 16:03:45,301 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-28 16:03:45,972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'flirt-servlet': startup date [Thu Jan 28 16:03:44 MSK 2016]; parent: Root WebApplicationContext
+2016-01-28 16:03:46,069 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandlingAdvice
+2016-01-28 16:03:46,181 [main] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'flirt': initialization completed in 1553 ms
+2016-01-28 17:14:29,331 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2016-01-28 17:14:29,465 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Jan 28 17:14:29 MSK 2016]; root of context hierarchy
+2016-01-28 17:14:29,559 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - No annotated classes found for specified class/package [com.fl.core.config.RootApplicationContextConfig]
+2016-01-28 17:14:29,634 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-28 17:14:29,720 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 386 ms
+2016-01-28 17:14:29,925 [main] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'flirt': initialization started
+2016-01-28 17:14:29,929 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'flirt-servlet': startup date [Thu Jan 28 17:14:29 MSK 2016]; parent: Root WebApplicationContext
+2016-01-28 17:14:29,932 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Successfully resolved class for [com.fl.web.config.MvcCoreConfig]
+2016-01-28 17:14:30,234 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-28 17:14:30,253 [main] INFO  com.fl.web.config.MvcCoreConfig - ###MvcCoreConfig loaded!###
+2016-01-28 17:14:30,584 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/404 || /400]}" onto public org.springframework.web.servlet.ModelAndView com.fl.web.controllers.ErrorController.error4x(javax.servlet.http.HttpServletRequest)
+2016-01-28 17:14:30,585 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/500]}" onto public org.springframework.web.servlet.ModelAndView com.fl.web.controllers.ErrorController.error5x(javax.servlet.http.HttpServletRequest)
+2016-01-28 17:14:30,586 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ || /home]}" onto public org.springframework.web.servlet.ModelAndView com.fl.web.controllers.MainController.home()
+2016-01-28 17:14:30,611 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 17:14:30,612 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/photo] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 17:14:30,612 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/crop] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 17:14:30,628 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-28 17:14:31,355 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'flirt-servlet': startup date [Thu Jan 28 17:14:29 MSK 2016]; parent: Root WebApplicationContext
+2016-01-28 17:14:31,460 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandlingAdvice
+2016-01-28 17:14:31,591 [main] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'flirt': initialization completed in 1666 ms
+2016-01-28 17:55:24,472 [qtp88903031-23] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/index.html] in DispatcherServlet with name 'flirt'
+2016-01-28 17:56:19,827 [qtp88903031-25] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/index.html] in DispatcherServlet with name 'flirt'
+2016-01-28 17:56:41,468 [qtp88903031-25] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/style.css] in DispatcherServlet with name 'flirt'
