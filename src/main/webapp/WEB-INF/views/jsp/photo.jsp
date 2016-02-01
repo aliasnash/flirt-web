@@ -37,6 +37,13 @@
 	position: relative;
 	text-align: left;
 }
+
+.online {
+	color: green;
+	float: right;
+	position: relative;
+	right: 6px;
+}
 </style>
 </head>
 
@@ -78,54 +85,42 @@
 						<a href="#" class="thumbnail"> <img src="<spring:url value="/resources/img/03.jpg"/>" alt="..."></a>
 						<div class="imgtext">
 							Сергей, 29
-							<span style="color: #31AF40;">
-								<strong>■</strong>
-							</span>
+							<span class="online">●</span>
 						</div>
 					</div>
 					<div class="col-xs-6 col-md-3 new-padding">
 						<a href="#" class="thumbnail"> <img src="<spring:url value="/resources/img/04.jpg"/>" alt="..."></a>
 						<div class="imgtext">
 							Сергей, 29
-							<span style="color: #CF1A1D;">
-								<strong>■</strong>
-							</span>
+							<span class="online">●</span>
 						</div>
 					</div>
 					<div class="col-xs-6 col-md-3 new-padding">
 						<a href="#" class="thumbnail"> <img src="<spring:url value="/resources/img/06.jpg"/>" alt="..."></a>
 						<div class="imgtext">
 							Сергей, 29
-							<span style="color: #31AF40;">
-								<strong>■</strong>
-							</span>
+							<span class="online">●</span>
 						</div>
 					</div>
 					<div class="col-xs-6 col-md-3 new-padding">
 						<a href="#" class="thumbnail"> <img src="<spring:url value="/resources/img/07.jpg"/>" alt="..."></a>
 						<div class="imgtext">
 							Сергей, 29
-							<span style="color: #CF1A1D;">
-								<strong>■</strong>
-							</span>
+							<span class="online">●</span>
 						</div>
 					</div>
 					<div class="col-xs-6 col-md-3 new-padding">
 						<a href="#" class="thumbnail"> <img src="<spring:url value="/resources/img/08.jpg"/>" alt="..."></a>
 						<div class="imgtext">
 							Сергей, 29
-							<span style="color: #CF1A1D;">
-								<strong>■</strong>
-							</span>
+							<span class="online">●</span>
 						</div>
 					</div>
 					<div class="col-xs-6 col-md-3 new-padding">
 						<a href="#" class="thumbnail"> <img src="<spring:url value="/resources/img/10.jpg"/>" alt="..."></a>
 						<div class="imgtext">
 							Сергей, 29
-							<span style="color: #31AF40;">
-								<strong>■</strong>
-							</span>
+							<span class="online">●</span>
 						</div>
 					</div>
 				</div>
