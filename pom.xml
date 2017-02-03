@@ -4,7 +4,6 @@
 	<artifactId>flirt-web</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>flirt-web</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
